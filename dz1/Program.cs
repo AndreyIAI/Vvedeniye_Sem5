@@ -27,7 +27,7 @@ int CountOfEven(int[] myArray2)
         }
     return Count;
 }
-Console.WriteLine("Введите размер массива  ");
+Console.WriteLine("Введите размер массива   ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] myArray = new int[5];
 myArray = GenerateRandomArray(size, 100, 999);
