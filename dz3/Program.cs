@@ -29,7 +29,7 @@ void FillArrayRandomNumbers(double[] numbers)
         numbers[i] = Convert.ToDouble(new Random().Next(100, 1000)) / 100;
     }
 }
-void PrintArray( double[] numbers)
+void PrintArray(double[] numbers)
 {
     for (int i = 0; i < numbers.Length; i++)
     {
